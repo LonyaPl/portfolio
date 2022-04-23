@@ -28,6 +28,13 @@
 
 <!--fonts-- Nunito Bold -->
 
+
+<head>
+ 
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.css">
+
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -36,9 +43,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
-<head>
- 
-  <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
@@ -46,21 +50,13 @@
 <div id="container">  
 
   <nav>
-    
     <img src="lonya.png" id="square">;
-    
-   
     <img src="resume.png">
   </nav>
 
   
 <section class="banner">
-    <div class="banner_text">
-      <img src="guy.png">
-    </div>
-    <div class="my_name">
-      <img src="name.png">
-    </div>
+      <img src="heroimage.png">
 </section>
 
 <section class="fixed">
@@ -71,16 +67,14 @@
 
 
 
-  <section class="sub_nav">
+<section class="sub_nav">
   
-  <button class="active">ABOUT ME</button>
+  <button>ABOUT ME</button>
   <button>PROJECTS</button>
   <button>SKILLS</button>
   <button>CONTACT</button>
   
 </section>
-
-
 
 
 <section class="fixed">
@@ -89,24 +83,124 @@
   
 
 <section class="about">
-  <div class="content">
-    <img src="portrait.png" 
+  <div class="aboutme">
+    <h1>ABOUT ME</h1>
+
+    <div class="firstp">My experience of living on 3 continents and previous careers in computer programming, education, and fine art photography, lead me to create minimalist yet compelling UX Design</div>
+
+    <div class="secondp"> Photography honed my observation skills and taught me to direct a viewer's focus, while working with students sharpened my listening skills and  dealing with student’s learning roadblocks prompted me to try new strategies. These experiences have reinforced my belief that both learning and designing are iterative processes and the User’s perspective is paramount.</div>
+        
+    <div class="thirdp">I'm excited to hear about your needs and how I can help.</div>
   </div>
-  <div class="banner_text">
-    <p>
-      My experience of living on 3 continents and previous careers in computer programming, education, and fine art photography, lead me to create minimalist yet compelling UX Design
-    
-    Photography honed my observation skills and taught me to direct a viewer's focus, while working with students sharpened my listening skills and  dealing with student’s learning roadblocks prompted me to try new strategies. These experiences have reinforced my belief that both learning and designing are iterative processes and the User’s perspective is paramount. 
-    
-    I’m excited to hear about your needs and how I can help.
-    
-    </p>
+
+  <div class="portrait">
+    <img src="portrait.png" > 
   </div>
+
+</section>
+
+<div class="line">  </div>
+
+<section class="title">
+    <p>SKILLS</p>
+</section>
+
+<!--
+<section class="cards">
+  
+  <div class="card_area">
+    
+    
+    <div class="definition">
+      <img src="design.png">
+      <p>DESIGN SERVICE<p>
+      <h2>UX & UI / Persona & Scenario Usability Testing / Storyboarding  Wireframing Prototyping  Storytelling / Journey Map 
+        Empathy Map / Affinity Diagram  
+        A/B Testing / Card Sorting 
+        Data Synthesis & Analysis 
+        Survey Creation 
+        Task Analysis / User Interviews Planning / User Interviews / 
+        User Research / Usability Testing  
+        User Observation</h2>
+    </div>
+  </div>
+
+  <div class="card_area">
+
+    <div class="definition">
+      <img src="tools.png">
+      <p>TOOLS I USE</p>
+      <h2>Figma / InVision / Miro / Google Forms / Slack/ Zoom / Google Doc  Google Sheets/ Google Font ClickUp / Trello / AdobeXD  Screencastify / Adobe Color  Photoshop / Github / Codepen  Visual Studio Code</h2>
+    </div>
+  </div>
+
+
+  <div class="card_area">
+    
+    <div class="definition">
+      <img src="coding.png">
+      <p>TECHNICAL</p>
+      <h2>COBOL / SQL / CICS / DB2 / CICS/VSAM / HTML / CSS</h2>
+      
+  </div>
+</div>
+-->
+<main>
+  <header id="skills-header">
+      <h1>DESIGN SERVICES</h1>
+      <h1>TOOLS I USE</h1>
+      <h1>TECHNICAL</h1>
+  </header>
+  <section id="skills-grid">
+      <figure class="portfolio-grid-item">
+        <img src="design.png">
+        <h1>DESIGN SERVICES</h1>
+        <ul>
+        <li>UX & UI / Persona & Scenario</li> 
+        <li>Usability Testing / Storyboarding</li> 
+        <li>Wireframing Prototyping  Storytelling / Journey Map </li> 
+          <li> Empathy Map / Affinity Diagram  </li> 
+            <li>A/B Testing / Card Sorting </li> 
+              <li> Data Synthesis & Analysis </li> 
+                <li>Survey Creation </li> 
+                  <li>Task Analysis / User Interviews Planning / User Interviews / </li> 
+                    <li>User Research / Usability Testing  </li> 
+                      <li> User Observation</li> 
+        </ul>
+      </figure>
+      <figure class="portfolio-grid-item">
+        <img src="tools.png">
+        <h1>TOOLS I USE</h1>
+        <ul>
+           <li>Figma / InVision / Miro / Google Forms / </li>
+           <li>Slack/ Zoom / Google Doc </li>
+           <li>Google Sheets/ Google Font </li>
+           <li> ClickUp / Trello / AdobeXD  </li>
+           <li> Screencastify / Adobe Color </li>
+           <li>Photoshop / Github / Codepen </li>
+           <li>Visual Studio Code</li>
+        </ul>
+      </figure>
+      <figure class="portfolio-grid-item">
+        <img src="coding.png">
+        <h1>TOOLS I USE</h1>
+        <ul>
+        <li>COBOL / SQL / CICS / DB2 /</li>
+        <li>CICS/VSAM / HTML / CSS</li>
+       </ul>
+      </figure>
+      
+  </section>
+</main>
+
+<div class="line">  </div>
+
+
+<section class="title">
+    <p>PROJECTS</p>
 </section>
 
 
 
-
-</div>
 </body>
 </html>
