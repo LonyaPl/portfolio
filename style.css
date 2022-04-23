@@ -173,8 +173,11 @@ main {
 .portfolio-grid-item {
   
   display: inline-block;
-  background: orange;
+
   padding: 2em;
+  justify-content: space-between;
+ 
+  
 }
  
    
@@ -185,4 +188,14 @@ ul{
 ul li{
   font-family: 'Nunito', sans-serif;
   padding: 10px;
+}
+
+h2{
+  color: #AD150B;
+  font-family: "nunito"; 
+  font-weight: 600;
+  font-size: 40px;
+  margin:0px;
+  display: center;
+   
 }
